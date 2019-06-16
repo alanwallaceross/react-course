@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaUserFriends, FaFighterJet, FaTrophy, FaTimesCircle } from 'react-icons/fa'
 import PropTypes from 'prop-types'
-import Results from './Results'
 import { ThemeConsumer } from '../contexts/theme'
 import { Link } from 'react-router-dom';
 
@@ -139,7 +138,7 @@ export default class Battle extends React.Component {
       [id]: null
     })
   }
-  
+
   render() {
     const { playerOne, playerTwo } = this.state
 
